@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(175, 175, 175, 0.2);
+}
+
+.primary {
+  color: rgb(247, 247, 247);
+}
+
+.secondary {
+  color: #015f1e;
+}
+
+.extra {
+  color: rgb(179, 24, 24);
+}
+
+.grey {
+  color: grey;
+}
+
+.black {
+  color: black;
+}
+
+.button-wsp {
+  padding: 10px 20px;
+  background-color: #128C7E;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+  color: white;
+  font-weight: bolder;
+}
+
+.hero {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/sunrise.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+.hero h1 {
+  font-size: 3.5em;
+  font-weight: none;
+  font-style: none;
+  text-decoration: none;
+}
+
+.us-list {
+  list-style: none;
+  border: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 5px;
+  padding: 25px;
+  margin-top: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  background-color: white;
+}
+
+.photo {
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-atr {
+  border: solid;
+  border-width: 1px;
+  border-color: rgba(128, 128, 128, 0.411);
+  padding: 10px;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.contact {
+  color: rgb(179, 24, 24);
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .logo-footer {
+    width: 25%;
+  }
+}
+@media (min-width: 280px) and (max-width: 767px) {
+  .logo-footer {
+    width: 75%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

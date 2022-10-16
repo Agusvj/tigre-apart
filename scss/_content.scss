@@ -1,0 +1,58 @@
+.hero{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/sunrise.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    
+    h1{
+        @include text (3.5em, none, none, none);
+    }
+}
+
+
+.us-list {
+    list-style: none;
+    border: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+
+.photo {
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-atr {
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.411);
+    padding: 10px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.contact {
+    color: rgb(179, 24, 24);
+    font-weight: 700;
+}
+
+
+@media (min-width:768px) {
+    .logo-footer {
+        width: 25%;
+    }
+}
+
+@media (min-width:280px) and (max-width: 767px) {
+    .logo-footer {
+        width: 75%;
+    }
+}
